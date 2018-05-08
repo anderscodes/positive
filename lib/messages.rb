@@ -12,4 +12,8 @@ attr_reader :stored_messages
     stored_messages.last
   end
 
+  def add_message(input)
+    stored_messages.push(input)
+  end
+
 end
