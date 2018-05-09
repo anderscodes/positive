@@ -1,6 +1,6 @@
 class Messages
 
-STORED_MESSAGES = ['Everything is Ok', 'You are your best friend', 'Everyday is the first day']
+STORED_MESSAGES = ['You are amazing just the way you are.', 'Find a way not an excuse.']
 
 attr_reader :stored_messages
 

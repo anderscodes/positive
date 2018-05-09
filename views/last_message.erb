@@ -1,4 +1,8 @@
-<%= @messages.last_message %>
+<h1> <%= @messages.last_message %> </h1>
+<br><br>
+<h2> Please return the favour by sending a positive message back </h2>
+
+<br><br>
 <form action='/thank_you' method='post'>
   <input type='text' name='message'>
   <br></br>

@@ -7,7 +7,7 @@ feature 'Homepage' do
   scenario 'Should return a positive message' do
     visit('/')
     click_button 'See positive message'
-    expect(page).to have_content('Everyday is the first day')
+    expect(page).to have_content('Find a way not an excuse.')
   end
 
   scenario 'Should return a positive message' do
