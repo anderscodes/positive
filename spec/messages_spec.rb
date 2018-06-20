@@ -12,7 +12,7 @@ describe Messages do
 
   describe '#last message' do
     it 'should return the last message' do
-      expect(messages.last_message).to eq('Find a way not an excuse.')
+      expect(messages.last_message).to eq(Messages::STORED_MESSAGES.last)
     end
   end
 
