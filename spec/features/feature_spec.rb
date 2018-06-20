@@ -18,4 +18,12 @@ feature 'Homepage' do
     expect(page).to have_content('Thank you for your message')
   end
 
+  scenario 'Should return your message' do
+    visit('/')
+    click_button 'See positive message'
+    fill_in 'message', with: 'You are your best friend'
+    click_button 'Send Message'
+    expect(page).to have_content('You are your best friend')
+  end
+
 end

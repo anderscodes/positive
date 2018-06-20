@@ -1,8 +1,19 @@
-<h1>Welcome to PSTVE!</h1>
-<h2> Here at pstve we try to spread some positivity by encouraging you to send positive messages.
-  <br>
-  Click the button below to see a positive message from a random stranger.
-</h2>
-<form action='/last_message' method='post'>
-  <button>See positive message</button>
-  </form>
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel=”stylesheet” type=”text/css” href="<%= url("/style.css")%>" />
+    <!-- <style>
+    body,h1 {font-family: "Raleway", sans-serif}
+    </style> -->
+    </head>
+  <body>
+    <h1>Welcome to PSTVE!</h1>
+    <h2> Here at pstve we try to spread some positivity by encouraging you to send positive messages.
+      <br>
+      Click the button below to see a positive message from a random stranger.
+    </h2>
+    <form action='/last_message' method='post'>
+      <button>See positive message</button>
+      </form>
+  </body>
+</html>
